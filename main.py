@@ -2,7 +2,7 @@ import speech_recognition as sr
 import pyttsx3
 import google.generativeai as genai
 
-API_KEY = "AIzaSyBwSCBSo7OjXtdda4j4BHmtLxfV9cFyK_4"
+API_KEY = ""
 genai.configure(api_key=API_KEY)
 model = genai.GenerativeModel("gemini-pro")
 
